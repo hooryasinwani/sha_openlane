@@ -1,0 +1,27 @@
+
+16. Printing statistics.
+
+=== sha2_top ===
+
+   Number of wires:               5755
+   Number of wire bits:           7471
+   Number of public wires:          73
+   Number of public wire bits:    1789
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               7435
+     $_ANDNOT_                     953
+     $_AND_                        129
+     $_MUX_                       2593
+     $_NAND_                       128
+     $_NOR_                        434
+     $_NOT_                        195
+     $_ORNOT_                      115
+     $_OR_                         577
+     $_XNOR_                       439
+     $_XOR_                        776
+     sky130_fd_sc_hd__dfrtp_2       13
+     sky130_fd_sc_hd__dfstp_2        2
+     sky130_fd_sc_hd__dfxtp_2     1081
+

@@ -1,0 +1,566 @@
+
+Magic 8.3 revision 331 - Compiled on Sat Oct 22 18:40:56 UTC 2022.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.356-0-g3af1337
+Reading LEF data from file /home/hwani/Desktop/pdk/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef.
+This action cannot be undone.
+LEF read, Line 78 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 79 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 112 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 114 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 115 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 121 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 122 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 123 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 156 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 164 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 165 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 167 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 168 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 169 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 206 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 207 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 209 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 210 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 211 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 248 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 249 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 251 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 252 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 253 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 290 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 291 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 797 lines.
+Reading DEF data from file /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/results/routing/sha2_top.def.
+This action cannot be undone.
+  Processed 4 vias total.
+  Processed 24142 subcell instances total.
+  Processed 72 pins total.
+  Processed 2 special nets total.
+  Processed 7759 nets total.
+DEF read: Processed 166790 lines.
+Moving label "_00117_" from metal1 to via1 in cell sha2_top.
+Moving label "_00137_" from metal1 to via1 in cell sha2_top.
+Moving label "_00142_" from metal1 to via1 in cell sha2_top.
+Moving label "_00143_" from metal1 to via1 in cell sha2_top.
+Moving label "_00152_" from metal1 to via1 in cell sha2_top.
+Moving label "_00153_" from metal1 to via1 in cell sha2_top.
+Moving label "_00163_" from metal1 to viali in cell sha2_top.
+Moving label "_00165_" from metal1 to via1 in cell sha2_top.
+Moving label "_00168_" from metal1 to via1 in cell sha2_top.
+Moving label "_00176_" from metal1 to via1 in cell sha2_top.
+Moving label "_00186_" from metal1 to via1 in cell sha2_top.
+Moving label "_00191_" from metal1 to via1 in cell sha2_top.
+Moving label "_00192_" from metal1 to via1 in cell sha2_top.
+Moving label "_00211_" from metal1 to via1 in cell sha2_top.
+Moving label "_00222_" from metal2 to via2 in cell sha2_top.
+Moving label "_00223_" from metal1 to via1 in cell sha2_top.
+Moving label "_00225_" from metal1 to via1 in cell sha2_top.
+Moving label "_00227_" from metal2 to via1 in cell sha2_top.
+Moving label "_00230_" from metal1 to via1 in cell sha2_top.
+Moving label "_00233_" from metal1 to via1 in cell sha2_top.
+Moving label "_00234_" from metal1 to via1 in cell sha2_top.
+Moving label "_00236_" from metal1 to viali in cell sha2_top.
+Moving label "_00248_" from metal1 to via1 in cell sha2_top.
+Moving label "_00253_" from metal1 to via1 in cell sha2_top.
+Moving label "_00255_" from metal1 to via1 in cell sha2_top.
+Moving label "_00284_" from metal1 to via1 in cell sha2_top.
+Moving label "_00286_" from metal1 to via1 in cell sha2_top.
+Moving label "_00299_" from metal1 to via1 in cell sha2_top.
+Moving label "_00314_" from metal1 to via1 in cell sha2_top.
+Moving label "_00316_" from metal1 to via1 in cell sha2_top.
+Moving label "_00320_" from metal1 to via1 in cell sha2_top.
+Moving label "_00331_" from metal1 to viali in cell sha2_top.
+Moving label "_00332_" from metal1 to via1 in cell sha2_top.
+Moving label "_00334_" from metal1 to via1 in cell sha2_top.
+Moving label "_00337_" from metal1 to via1 in cell sha2_top.
+Moving label "_00339_" from metal1 to via1 in cell sha2_top.
+Moving label "_00353_" from metal1 to via1 in cell sha2_top.
+Moving label "_00354_" from metal1 to via1 in cell sha2_top.
+Moving label "_00355_" from metal1 to via1 in cell sha2_top.
+Moving label "_00360_" from metal1 to via1 in cell sha2_top.
+Moving label "_00362_" from metal1 to via1 in cell sha2_top.
+Moving label "_00386_" from metal1 to via1 in cell sha2_top.
+Moving label "_00391_" from metal1 to via1 in cell sha2_top.
+Moving label "_00396_" from metal1 to via1 in cell sha2_top.
+Moving label "_00397_" from metal1 to via1 in cell sha2_top.
+Moving label "_00400_" from metal1 to via1 in cell sha2_top.
+Moving label "_00409_" from metal1 to via1 in cell sha2_top.
+Moving label "_00418_" from metal1 to via1 in cell sha2_top.
+Moving label "_00423_" from metal1 to via1 in cell sha2_top.
+Moving label "_00430_" from metal1 to via1 in cell sha2_top.
+Moving label "_00438_" from metal1 to viali in cell sha2_top.
+Moving label "_00463_" from metal1 to via1 in cell sha2_top.
+Moving label "_00473_" from metal1 to via1 in cell sha2_top.
+Moving label "_00508_" from metal1 to via1 in cell sha2_top.
+Moving label "_00517_" from metal1 to via1 in cell sha2_top.
+Moving label "_00522_" from metal1 to via1 in cell sha2_top.
+Moving label "_00545_" from metal1 to via1 in cell sha2_top.
+Moving label "_00546_" from metal1 to via1 in cell sha2_top.
+Moving label "_00552_" from metal1 to via1 in cell sha2_top.
+Moving label "_00558_" from metal1 to via1 in cell sha2_top.
+Moving label "_00563_" from metal1 to via1 in cell sha2_top.
+Moving label "_00565_" from metal1 to via1 in cell sha2_top.
+Moving label "_00573_" from metal1 to via1 in cell sha2_top.
+Moving label "_00582_" from metal1 to via1 in cell sha2_top.
+Moving label "_00583_" from metal1 to via1 in cell sha2_top.
+Moving label "_00587_" from metal1 to via1 in cell sha2_top.
+Moving label "_00589_" from metal1 to via1 in cell sha2_top.
+Moving label "_00598_" from metal1 to via1 in cell sha2_top.
+Moving label "_00609_" from metal1 to via1 in cell sha2_top.
+Moving label "_00616_" from metal1 to via1 in cell sha2_top.
+Moving label "_00625_" from metal1 to via1 in cell sha2_top.
+Moving label "_00626_" from metal1 to viali in cell sha2_top.
+Moving label "_00629_" from metal1 to via1 in cell sha2_top.
+Moving label "_00637_" from metal1 to via1 in cell sha2_top.
+Moving label "_00654_" from metal1 to via1 in cell sha2_top.
+Moving label "_00658_" from metal1 to via1 in cell sha2_top.
+Moving label "_00676_" from metal1 to via1 in cell sha2_top.
+Moving label "_00688_" from metal1 to via1 in cell sha2_top.
+Moving label "_00694_" from metal1 to via1 in cell sha2_top.
+Moving label "_00702_" from metal1 to via1 in cell sha2_top.
+Moving label "_00711_" from metal1 to via1 in cell sha2_top.
+Moving label "_00712_" from metal1 to via1 in cell sha2_top.
+Moving label "_00718_" from metal1 to via1 in cell sha2_top.
+Moving label "_00725_" from metal1 to via1 in cell sha2_top.
+Moving label "_00743_" from metal1 to via1 in cell sha2_top.
+Moving label "_00747_" from metal1 to via1 in cell sha2_top.
+Moving label "_00748_" from metal1 to via1 in cell sha2_top.
+Moving label "_00751_" from metal1 to via1 in cell sha2_top.
+Moving label "_00753_" from metal1 to via1 in cell sha2_top.
+Moving label "_00756_" from metal1 to via1 in cell sha2_top.
+Moving label "_00758_" from metal1 to via1 in cell sha2_top.
+Moving label "_00764_" from metal1 to via1 in cell sha2_top.
+Moving label "_00766_" from metal1 to via1 in cell sha2_top.
+Moving label "_00773_" from metal1 to via1 in cell sha2_top.
+Moving label "_00774_" from metal1 to via1 in cell sha2_top.
+Moving label "_00781_" from metal1 to via1 in cell sha2_top.
+Moving label "_00784_" from metal1 to via1 in cell sha2_top.
+Moving label "_00805_" from metal1 to via1 in cell sha2_top.
+Moving label "_00827_" from metal1 to via1 in cell sha2_top.
+Moving label "_00831_" from metal1 to via1 in cell sha2_top.
+Moving label "_00833_" from metal1 to via1 in cell sha2_top.
+Moving label "_00834_" from metal1 to via1 in cell sha2_top.
+Moving label "_00836_" from metal1 to via1 in cell sha2_top.
+Moving label "_00840_" from metal1 to via1 in cell sha2_top.
+Moving label "_00843_" from metal1 to via1 in cell sha2_top.
+Moving label "_00846_" from metal1 to viali in cell sha2_top.
+Moving label "_00855_" from metal1 to via1 in cell sha2_top.
+Moving label "_00864_" from metal1 to via1 in cell sha2_top.
+Moving label "_00872_" from metal1 to via1 in cell sha2_top.
+Moving label "_00875_" from metal2 to via2 in cell sha2_top.
+Moving label "_00897_" from metal1 to via1 in cell sha2_top.
+Moving label "_00898_" from metal1 to via1 in cell sha2_top.
+Moving label "_00899_" from metal1 to via1 in cell sha2_top.
+Moving label "_00905_" from metal1 to via1 in cell sha2_top.
+Moving label "_00906_" from metal1 to via1 in cell sha2_top.
+Moving label "_00914_" from metal1 to via1 in cell sha2_top.
+Moving label "_00919_" from metal1 to via1 in cell sha2_top.
+Moving label "_00920_" from metal1 to via1 in cell sha2_top.
+Moving label "_00921_" from metal1 to via1 in cell sha2_top.
+Moving label "_00925_" from metal1 to via1 in cell sha2_top.
+Moving label "_00953_" from metal1 to via1 in cell sha2_top.
+Moving label "_00978_" from metal1 to via1 in cell sha2_top.
+Moving label "_00982_" from metal1 to via1 in cell sha2_top.
+Moving label "_00993_" from metal1 to via1 in cell sha2_top.
+Moving label "_00995_" from metal1 to via1 in cell sha2_top.
+Moving label "_01000_" from metal1 to via1 in cell sha2_top.
+Moving label "_01002_" from metal1 to via1 in cell sha2_top.
+Moving label "_01014_" from metal1 to via1 in cell sha2_top.
+Moving label "_01022_" from metal1 to via1 in cell sha2_top.
+Moving label "_01026_" from metal1 to via1 in cell sha2_top.
+Moving label "_01027_" from metal1 to viali in cell sha2_top.
+Moving label "_01028_" from metal1 to viali in cell sha2_top.
+Moving label "_01031_" from metal1 to via1 in cell sha2_top.
+Moving label "_01032_" from metal1 to via1 in cell sha2_top.
+Moving label "_01045_" from metal1 to via1 in cell sha2_top.
+Moving label "_01054_" from metal1 to via1 in cell sha2_top.
+Moving label "_01056_" from metal1 to via1 in cell sha2_top.
+Moving label "_01068_" from metal1 to via1 in cell sha2_top.
+Moving label "_01074_" from metal1 to via1 in cell sha2_top.
+Moving label "_01075_" from metal1 to via1 in cell sha2_top.
+Moving label "_01076_" from metal1 to via1 in cell sha2_top.
+Moving label "_01086_" from metal1 to via1 in cell sha2_top.
+Moving label "_01104_" from metal1 to via1 in cell sha2_top.
+Moving label "_01111_" from metal1 to via1 in cell sha2_top.
+Moving label "_01126_" from metal1 to via1 in cell sha2_top.
+Moving label "_01127_" from metal1 to via1 in cell sha2_top.
+Moving label "_01140_" from metal1 to viali in cell sha2_top.
+Moving label "_01144_" from metal1 to via1 in cell sha2_top.
+Moving label "_01147_" from metal1 to via1 in cell sha2_top.
+Moving label "_01148_" from metal1 to via1 in cell sha2_top.
+Moving label "_01152_" from metal1 to via1 in cell sha2_top.
+Moving label "_01154_" from metal1 to via1 in cell sha2_top.
+Moving label "_01163_" from metal1 to via1 in cell sha2_top.
+Moving label "_01170_" from metal1 to via1 in cell sha2_top.
+Moving label "_01171_" from metal1 to via1 in cell sha2_top.
+Moving label "_01181_" from metal1 to via1 in cell sha2_top.
+Moving label "_01238_" from metal2 to via1 in cell sha2_top.
+Moving label "_01275_" from metal1 to via1 in cell sha2_top.
+Moving label "_01284_" from metal2 to via2 in cell sha2_top.
+Moving label "_01329_" from metal1 to viali in cell sha2_top.
+Moving label "_01339_" from metal2 to via2 in cell sha2_top.
+Moving label "_01413_" from metal2 to via2 in cell sha2_top.
+Moving label "_01445_" from metal2 to via2 in cell sha2_top.
+Moving label "_01466_" from metal2 to via2 in cell sha2_top.
+Moving label "_01474_" from metal1 to via1 in cell sha2_top.
+Moving label "_01481_" from metal1 to viali in cell sha2_top.
+Moving label "_01488_" from metal1 to via1 in cell sha2_top.
+Moving label "_01544_" from metal1 to viali in cell sha2_top.
+Moving label "_01551_" from metal1 to viali in cell sha2_top.
+Moving label "_01559_" from metal2 to via2 in cell sha2_top.
+Moving label "_01565_" from metal1 to viali in cell sha2_top.
+Moving label "_01576_" from metal2 to via2 in cell sha2_top.
+Moving label "_01594_" from metal3 to via3 in cell sha2_top.
+Moving label "_01601_" from metal2 to via2 in cell sha2_top.
+Moving label "_01639_" from metal1 to viali in cell sha2_top.
+Moving label "_01659_" from metal2 to via1 in cell sha2_top.
+Moving label "_01680_" from metal2 to via2 in cell sha2_top.
+Moving label "_01693_" from metal2 to via2 in cell sha2_top.
+Moving label "_01720_" from metal1 to via1 in cell sha2_top.
+Moving label "_01775_" from metal2 to via1 in cell sha2_top.
+Moving label "_01821_" from metal2 to via2 in cell sha2_top.
+Moving label "_01892_" from metal2 to via2 in cell sha2_top.
+Moving label "_02012_" from metal2 to via2 in cell sha2_top.
+Moving label "_02211_" from metal1 to via1 in cell sha2_top.
+Moving label "_02216_" from metal2 to via2 in cell sha2_top.
+Moving label "_02230_" from metal2 to via1 in cell sha2_top.
+Moving label "_02239_" from metal1 to via1 in cell sha2_top.
+Moving label "_02271_" from metal2 to via2 in cell sha2_top.
+Moving label "_02311_" from metal2 to via2 in cell sha2_top.
+Moving label "_02330_" from metal1 to via1 in cell sha2_top.
+Moving label "_02346_" from metal1 to viali in cell sha2_top.
+Moving label "_02347_" from metal1 to viali in cell sha2_top.
+Moving label "_02354_" from metal2 to via2 in cell sha2_top.
+Moving label "_02359_" from metal2 to via2 in cell sha2_top.
+Moving label "_02392_" from metal2 to via2 in cell sha2_top.
+Moving label "_02419_" from metal1 to viali in cell sha2_top.
+Moving label "_02471_" from metal1 to viali in cell sha2_top.
+Moving label "_02477_" from metal2 to via1 in cell sha2_top.
+Moving label "_02535_" from metal2 to via2 in cell sha2_top.
+Moving label "_02562_" from metal2 to via2 in cell sha2_top.
+Moving label "_02598_" from metal2 to via2 in cell sha2_top.
+Moving label "_02624_" from metal2 to via2 in cell sha2_top.
+Moving label "_02634_" from metal2 to via2 in cell sha2_top.
+Moving label "_02642_" from metal2 to via2 in cell sha2_top.
+Moving label "_02650_" from metal2 to via2 in cell sha2_top.
+Moving label "_02654_" from metal2 to via2 in cell sha2_top.
+Moving label "_02655_" from metal2 to via2 in cell sha2_top.
+Moving label "_02661_" from metal2 to via2 in cell sha2_top.
+Moving label "_02674_" from metal2 to via2 in cell sha2_top.
+Moving label "_02678_" from metal2 to via2 in cell sha2_top.
+Moving label "_02679_" from metal1 to viali in cell sha2_top.
+Moving label "_02684_" from metal2 to via2 in cell sha2_top.
+Moving label "_02754_" from metal1 to viali in cell sha2_top.
+Moving label "_02765_" from metal1 to via1 in cell sha2_top.
+Moving label "_02767_" from metal1 to viali in cell sha2_top.
+Moving label "_02783_" from metal1 to via1 in cell sha2_top.
+Moving label "_02819_" from metal2 to via2 in cell sha2_top.
+Moving label "_02840_" from metal2 to via1 in cell sha2_top.
+Moving label "_02845_" from metal1 to via1 in cell sha2_top.
+Moving label "_02866_" from metal1 to viali in cell sha2_top.
+Moving label "_02880_" from metal1 to via1 in cell sha2_top.
+Moving label "_02887_" from metal1 to viali in cell sha2_top.
+Moving label "_02936_" from metal2 to via2 in cell sha2_top.
+Moving label "_02946_" from metal2 to via2 in cell sha2_top.
+Moving label "_03006_" from metal3 to via3 in cell sha2_top.
+Moving label "_03030_" from metal2 to via2 in cell sha2_top.
+Moving label "_03035_" from metal2 to via2 in cell sha2_top.
+Moving label "_03036_" from metal1 to via1 in cell sha2_top.
+Moving label "_03097_" from metal1 to via1 in cell sha2_top.
+Moving label "_03103_" from metal3 to via3 in cell sha2_top.
+Moving label "_03149_" from metal3 to via3 in cell sha2_top.
+Moving label "_03172_" from metal1 to viali in cell sha2_top.
+Moving label "_03211_" from metal2 to via2 in cell sha2_top.
+Moving label "_03268_" from metal1 to viali in cell sha2_top.
+Moving label "_03269_" from metal1 to viali in cell sha2_top.
+Moving label "_03327_" from metal2 to via2 in cell sha2_top.
+Moving label "_03331_" from metal1 to viali in cell sha2_top.
+Moving label "_03392_" from metal2 to via2 in cell sha2_top.
+Moving label "_03455_" from metal2 to via2 in cell sha2_top.
+Moving label "_03463_" from metal1 to via1 in cell sha2_top.
+Moving label "_03558_" from metal2 to via1 in cell sha2_top.
+Moving label "_03596_" from metal2 to via2 in cell sha2_top.
+Moving label "_03687_" from metal2 to via2 in cell sha2_top.
+Moving label "_03705_" from metal2 to via2 in cell sha2_top.
+Moving label "_03726_" from metal2 to via2 in cell sha2_top.
+Moving label "_03767_" from metal1 to via1 in cell sha2_top.
+Moving label "_03773_" from metal2 to via2 in cell sha2_top.
+Moving label "_03775_" from metal2 to via2 in cell sha2_top.
+Moving label "_03810_" from metal2 to via2 in cell sha2_top.
+Moving label "_03814_" from metal1 to viali in cell sha2_top.
+Moving label "_03820_" from metal1 to via1 in cell sha2_top.
+Moving label "_03828_" from metal1 to via1 in cell sha2_top.
+Moving label "_03859_" from metal2 to via2 in cell sha2_top.
+Moving label "_03864_" from metal2 to via2 in cell sha2_top.
+Moving label "_03883_" from metal2 to via2 in cell sha2_top.
+Moving label "_03899_" from metal3 to via3 in cell sha2_top.
+Moving label "_03901_" from metal2 to via2 in cell sha2_top.
+Moving label "_03905_" from metal3 to via3 in cell sha2_top.
+Moving label "_03938_" from metal1 to viali in cell sha2_top.
+Moving label "_03942_" from metal2 to via2 in cell sha2_top.
+Moving label "_03950_" from metal2 to via2 in cell sha2_top.
+Moving label "_03964_" from metal2 to via2 in cell sha2_top.
+Moving label "_03987_" from metal2 to via2 in cell sha2_top.
+Moving label "_03996_" from metal1 to viali in cell sha2_top.
+Moving label "_04099_" from metal2 to via2 in cell sha2_top.
+Moving label "_04128_" from metal2 to via1 in cell sha2_top.
+Moving label "_04167_" from metal1 to via1 in cell sha2_top.
+Moving label "_04214_" from metal1 to viali in cell sha2_top.
+Moving label "_04231_" from metal2 to via2 in cell sha2_top.
+Moving label "_04282_" from metal1 to viali in cell sha2_top.
+Moving label "_04313_" from metal1 to viali in cell sha2_top.
+Moving label "_04345_" from metal1 to via1 in cell sha2_top.
+Moving label "_04387_" from metal1 to via1 in cell sha2_top.
+Moving label "_04400_" from metal1 to via1 in cell sha2_top.
+Moving label "_04438_" from metal1 to via1 in cell sha2_top.
+Moving label "_04526_" from metal2 to via1 in cell sha2_top.
+Moving label "_04557_" from metal2 to via2 in cell sha2_top.
+Moving label "_04575_" from metal2 to via2 in cell sha2_top.
+Moving label "_04577_" from metal2 to via2 in cell sha2_top.
+Moving label "_04600_" from metal2 to via2 in cell sha2_top.
+Moving label "_04612_" from metal3 to via3 in cell sha2_top.
+Moving label "_04625_" from metal3 to via3 in cell sha2_top.
+Moving label "_04639_" from metal1 to viali in cell sha2_top.
+Moving label "_04644_" from metal1 to via1 in cell sha2_top.
+Moving label "_04661_" from metal1 to viali in cell sha2_top.
+Moving label "_04691_" from metal2 to via2 in cell sha2_top.
+Moving label "_04701_" from metal1 to viali in cell sha2_top.
+Moving label "_04730_" from metal1 to via1 in cell sha2_top.
+Moving label "_04754_" from metal1 to viali in cell sha2_top.
+Moving label "_04798_" from metal1 to viali in cell sha2_top.
+Moving label "_04820_" from metal1 to viali in cell sha2_top.
+Moving label "_04835_" from metal1 to via1 in cell sha2_top.
+Moving label "_04873_" from metal1 to via1 in cell sha2_top.
+Moving label "_04885_" from metal1 to via1 in cell sha2_top.
+Moving label "_04886_" from metal1 to viali in cell sha2_top.
+Moving label "_04887_" from metal1 to viali in cell sha2_top.
+Moving label "_04927_" from metal1 to viali in cell sha2_top.
+Moving label "_04930_" from metal2 to via2 in cell sha2_top.
+Moving label "_04951_" from metal2 to via2 in cell sha2_top.
+Moving label "_04964_" from metal1 to via1 in cell sha2_top.
+Moving label "_04968_" from metal1 to via1 in cell sha2_top.
+Moving label "_04985_" from metal1 to via1 in cell sha2_top.
+Moving label "_05000_" from metal2 to via2 in cell sha2_top.
+Moving label "_05037_" from metal1 to viali in cell sha2_top.
+Moving label "_05067_" from metal3 to via2 in cell sha2_top.
+Moving label "_05091_" from metal1 to via1 in cell sha2_top.
+Moving label "_05107_" from metal1 to viali in cell sha2_top.
+Moving label "_05133_" from metal1 to viali in cell sha2_top.
+Moving label "_05169_" from metal1 to via1 in cell sha2_top.
+Moving label "_05184_" from metal1 to viali in cell sha2_top.
+Moving label "_05285_" from metal2 to via1 in cell sha2_top.
+Moving label "_05286_" from metal1 to viali in cell sha2_top.
+Moving label "_05536_" from metal1 to via1 in cell sha2_top.
+Moving label "_05595_" from metal2 to via1 in cell sha2_top.
+Moving label "_05806_" from metal2 to via2 in cell sha2_top.
+Moving label "_05819_" from metal1 to viali in cell sha2_top.
+Moving label "_05824_" from metal1 to viali in cell sha2_top.
+Moving label "_05984_" from metal1 to via1 in cell sha2_top.
+Moving label "_05998_" from metal1 to via1 in cell sha2_top.
+Moving label "_06269_" from metal2 to via1 in cell sha2_top.
+Moving label "_118_\[15\]" from metal2 to via2 in cell sha2_top.
+Moving label "_118_\[1\]" from metal1 to via1 in cell sha2_top.
+Moving label "_128_\[16\]" from metal1 to via1 in cell sha2_top.
+Moving label "_128_\[31\]" from metal1 to via1 in cell sha2_top.
+Moving label "_130_\[23\]" from metal2 to via1 in cell sha2_top.
+Moving label "_140_\[15\]" from metal2 to via2 in cell sha2_top.
+Moving label "_142_\[24\]" from metal2 to via2 in cell sha2_top.
+Moving label "_158_\[20\]" from metal2 to via1 in cell sha2_top.
+Moving label "_164_\[26\]" from metal2 to via2 in cell sha2_top.
+Moving label "_164_\[27\]" from metal2 to via2 in cell sha2_top.
+Moving label "_167_\[20\]" from metal2 to via2 in cell sha2_top.
+Moving label "_167_\[3\]" from metal2 to via1 in cell sha2_top.
+Moving label "_170_\[19\]" from metal1 to via1 in cell sha2_top.
+Moving label "_170_\[28\]" from metal2 to via2 in cell sha2_top.
+Moving label "_173_\[0\]" from metal2 to via2 in cell sha2_top.
+Moving label "_173_\[11\]" from metal2 to via2 in cell sha2_top.
+Moving label "_173_\[28\]" from metal2 to via2 in cell sha2_top.
+Moving label "_173_\[30\]" from metal1 to viali in cell sha2_top.
+Moving label "_179_\[22\]" from metal2 to via2 in cell sha2_top.
+Moving label "_185_\[12\]" from metal2 to via2 in cell sha2_top.
+Moving label "_185_\[19\]" from metal2 to via2 in cell sha2_top.
+Moving label "_185_\[1\]" from metal2 to via2 in cell sha2_top.
+Moving label "_185_\[23\]" from metal2 to via2 in cell sha2_top.
+Moving label "_185_\[27\]" from metal2 to via2 in cell sha2_top.
+Moving label "_185_\[30\]" from metal2 to via2 in cell sha2_top.
+Moving label "_228_\[21\]" from metal1 to via1 in cell sha2_top.
+Moving label "_234_\[11\]" from metal2 to via2 in cell sha2_top.
+Moving label "_234_\[28\]" from metal1 to via1 in cell sha2_top.
+Moving label "_243_\[11\]" from metal1 to viali in cell sha2_top.
+Moving label "_243_\[26\]" from metal2 to via2 in cell sha2_top.
+Moving label "_243_\[27\]" from metal2 to via2 in cell sha2_top.
+Moving label "clknet_4_0_0_clk" from metal1 to via1 in cell sha2_top.
+Moving label "net13" from metal2 to via2 in cell sha2_top.
+Moving label "net16" from metal2 to via2 in cell sha2_top.
+Moving label "net2" from metal2 to via2 in cell sha2_top.
+Moving label "net21" from metal2 to via2 in cell sha2_top.
+Moving label "net27" from metal2 to via2 in cell sha2_top.
+Moving label "net28" from metal3 to via3 in cell sha2_top.
+Moving label "net3" from metal3 to via3 in cell sha2_top.
+Moving label "net36" from metal2 to via2 in cell sha2_top.
+Moving label "net37" from metal3 to via3 in cell sha2_top.
+Moving label "net4" from metal2 to via2 in cell sha2_top.
+Moving label "net41" from metal2 to via2 in cell sha2_top.
+Moving label "net44" from metal3 to via3 in cell sha2_top.
+Moving label "net46" from metal2 to via2 in cell sha2_top.
+Moving label "net58" from metal2 to via2 in cell sha2_top.
+Moving label "net61" from metal2 to via2 in cell sha2_top.
+Moving label "net7" from metal3 to via3 in cell sha2_top.
+Moving label "net9" from metal2 to via2 in cell sha2_top.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  408.720 x 419.440  ( 0.000,  0.000), ( 408.720,  419.440)  171433.516
+lambda:   40872.00 x 41944.00  (  0.00,  0.00 ), ( 40872.00,  41944.00)  1714335232.00
+internal:  81744 x 83888   (     0,  0    ), ( 81744,  83888)  6857340672
+   Generating output for cell sky130_fd_sc_hd__diode_2
+   Generating output for cell sky130_ef_sc_hd__decap_12
+   Generating output for cell sky130_fd_sc_hd__fill_2
+   Generating output for cell sky130_fd_sc_hd__decap_3
+   Generating output for cell sky130_fd_sc_hd__buf_2
+   Generating output for cell sky130_fd_sc_hd__decap_8
+   Generating output for cell sky130_fd_sc_hd__fill_1
+   Generating output for cell sky130_fd_sc_hd__tapvpwrvgnd_1
+   Generating output for cell sky130_fd_sc_hd__decap_4
+   Generating output for cell sky130_fd_sc_hd__decap_6
+   Generating output for cell sky130_fd_sc_hd__or2_1
+   Generating output for cell sky130_fd_sc_hd__dfxtp_1
+   Generating output for cell sky130_fd_sc_hd__dfxtp_4
+   Generating output for cell sky130_fd_sc_hd__o211a_1
+   Generating output for cell sky130_fd_sc_hd__a211o_1
+   Generating output for cell sky130_fd_sc_hd__dfxtp_2
+   Generating output for cell sky130_fd_sc_hd__nor2_1
+   Generating output for cell sky130_fd_sc_hd__a21boi_1
+   Generating output for cell sky130_fd_sc_hd__and2_1
+   Generating output for cell sky130_fd_sc_hd__xnor2_2
+   Generating output for cell sky130_fd_sc_hd__nand2_1
+   Generating output for cell sky130_fd_sc_hd__o21a_1
+   Generating output for cell sky130_fd_sc_hd__buf_4
+   Generating output for cell sky130_fd_sc_hd__buf_6
+   Generating output for cell sky130_fd_sc_hd__and3_1
+   Generating output for cell sky130_fd_sc_hd__and2b_1
+   Generating output for cell sky130_fd_sc_hd__xnor2_1
+   Generating output for cell sky130_fd_sc_hd__nor3_1
+   Generating output for cell sky130_fd_sc_hd__clkbuf_4
+   Generating output for cell sky130_fd_sc_hd__mux2_1
+   Generating output for cell sky130_fd_sc_hd__a31o_1
+   Generating output for cell sky130_fd_sc_hd__a21bo_1
+   Generating output for cell sky130_fd_sc_hd__a21o_1
+   Generating output for cell sky130_fd_sc_hd__or3_1
+   Generating output for cell sky130_fd_sc_hd__a21oi_1
+   Generating output for cell sky130_fd_sc_hd__xor2_1
+   Generating output for cell sky130_fd_sc_hd__or2b_1
+   Generating output for cell sky130_fd_sc_hd__o221a_1
+   Generating output for cell sky130_fd_sc_hd__xor2_2
+   Generating output for cell sky130_fd_sc_hd__a221o_1
+   Generating output for cell sky130_fd_sc_hd__a311o_1
+   Generating output for cell sky130_fd_sc_hd__o21ai_2
+   Generating output for cell sky130_fd_sc_hd__o21ai_1
+   Generating output for cell sky130_fd_sc_hd__o311a_1
+   Generating output for cell sky130_fd_sc_hd__a31oi_1
+   Generating output for cell sky130_fd_sc_hd__clkbuf_8
+   Generating output for cell sky130_fd_sc_hd__clkbuf_16
+   Generating output for cell sky130_fd_sc_hd__o21bai_1
+   Generating output for cell sky130_fd_sc_hd__inv_2
+   Generating output for cell sky130_fd_sc_hd__o21ba_1
+   Generating output for cell sky130_fd_sc_hd__nor2_4
+   Generating output for cell sky130_fd_sc_hd__or4bb_1
+   Generating output for cell sky130_fd_sc_hd__nand3_1
+   Generating output for cell sky130_fd_sc_hd__o31a_1
+   Generating output for cell sky130_fd_sc_hd__o32a_1
+   Generating output for cell sky130_fd_sc_hd__clkbuf_1
+   Generating output for cell sky130_fd_sc_hd__clkbuf_2
+   Generating output for cell sky130_fd_sc_hd__a211oi_1
+   Generating output for cell sky130_fd_sc_hd__and4_1
+   Generating output for cell sky130_fd_sc_hd__nand2_2
+   Generating output for cell sky130_fd_sc_hd__nand3b_1
+   Generating output for cell sky130_fd_sc_hd__nor3_4
+   Generating output for cell sky130_fd_sc_hd__xnor2_4
+   Generating output for cell sky130_fd_sc_hd__o2111a_1
+   Generating output for cell sky130_fd_sc_hd__o21a_2
+   Generating output for cell sky130_fd_sc_hd__a32o_1
+   Generating output for cell sky130_fd_sc_hd__a2bb2o_1
+   Generating output for cell sky130_fd_sc_hd__a21oi_2
+   Generating output for cell sky130_fd_sc_hd__o41a_1
+   Generating output for cell sky130_fd_sc_hd__a21boi_2
+   Generating output for cell sky130_fd_sc_hd__o211ai_1
+   Generating output for cell sky130_fd_sc_hd__a31oi_4
+   Generating output for cell sky130_fd_sc_hd__mux2_4
+   Generating output for cell sky130_fd_sc_hd__a31oi_2
+   Generating output for cell sky130_fd_sc_hd__o2bb2a_1
+   Generating output for cell sky130_fd_sc_hd__or2_2
+   Generating output for cell sky130_fd_sc_hd__dlymetal6s2s_1
+   Generating output for cell sky130_fd_sc_hd__a2111o_1
+   Generating output for cell sky130_fd_sc_hd__nor2_2
+   Generating output for cell sky130_fd_sc_hd__a22o_1
+   Generating output for cell sky130_fd_sc_hd__o32ai_4
+   Generating output for cell sky130_fd_sc_hd__xor2_4
+   Generating output for cell sky130_fd_sc_hd__nand4b_1
+   Generating output for cell sky130_fd_sc_hd__o31ai_2
+   Generating output for cell sky130_fd_sc_hd__o32ai_2
+   Generating output for cell sky130_fd_sc_hd__o22ai_1
+   Generating output for cell sky130_fd_sc_hd__or4b_1
+   Generating output for cell sky130_fd_sc_hd__o22a_2
+   Generating output for cell sky130_fd_sc_hd__mux2_2
+   Generating output for cell sky130_fd_sc_hd__and2b_2
+   Generating output for cell sky130_fd_sc_hd__o2111ai_1
+   Generating output for cell sky130_fd_sc_hd__or3b_1
+   Generating output for cell sky130_fd_sc_hd__a21oi_4
+   Generating output for cell sky130_fd_sc_hd__clkinv_2
+   Generating output for cell sky130_fd_sc_hd__or3_2
+   Generating output for cell sky130_fd_sc_hd__a311oi_4
+   Generating output for cell sky130_fd_sc_hd__o32a_2
+   Generating output for cell sky130_fd_sc_hd__o31a_2
+   Generating output for cell sky130_fd_sc_hd__a311o_2
+   Generating output for cell sky130_fd_sc_hd__o211ai_2
+   Generating output for cell sky130_fd_sc_hd__o22a_1
+   Generating output for cell sky130_fd_sc_hd__o2111ai_4
+   Generating output for cell sky130_fd_sc_hd__a221oi_1
+   Generating output for cell sky130_fd_sc_hd__o221a_2
+   Generating output for cell sky130_fd_sc_hd__and4bb_1
+   Generating output for cell sky130_fd_sc_hd__dfrtp_1
+   Generating output for cell sky130_fd_sc_hd__or4_1
+   Generating output for cell sky130_fd_sc_hd__dfstp_2
+   Generating output for cell sky130_fd_sc_hd__nor2_8
+   Generating output for cell sky130_fd_sc_hd__or3_4
+   Generating output for cell sky130_fd_sc_hd__a21o_2
+   Generating output for cell sky130_fd_sc_hd__or3b_2
+   Generating output for cell sky130_fd_sc_hd__o2bb2ai_1
+   Generating output for cell sky130_fd_sc_hd__o21bai_2
+   Generating output for cell sky130_fd_sc_hd__nand3_2
+   Generating output for cell sky130_fd_sc_hd__and3b_1
+   Generating output for cell sky130_fd_sc_hd__nand2_4
+   Generating output for cell sky130_fd_sc_hd__or3b_4
+   Generating output for cell sky130_fd_sc_hd__dfrtp_2
+   Generating output for cell sky130_fd_sc_hd__or2_4
+   Generating output for cell sky130_fd_sc_hd__and3_2
+   Generating output for cell sky130_fd_sc_hd__o311ai_4
+   Generating output for cell sky130_fd_sc_hd__nor3b_1
+   Generating output for cell sky130_fd_sc_hd__a41o_1
+   Generating output for cell sky130_fd_sc_hd__nand4_1
+   Generating output for cell sky130_fd_sc_hd__o211ai_4
+   Generating output for cell sky130_fd_sc_hd__a221oi_4
+   Generating output for cell sky130_fd_sc_hd__o21ai_4
+   Generating output for cell sky130_fd_sc_hd__nor4_1
+   Generating output for cell sky130_fd_sc_hd__a311oi_2
+   Generating output for cell sky130_fd_sc_hd__mux4_1
+   Generating output for cell sky130_fd_sc_hd__or4_2
+   Generating output for cell sky130_fd_sc_hd__dfrtp_4
+   Generating output for cell sky130_fd_sc_hd__nor2b_4
+   Generating output for cell sky130_fd_sc_hd__o41ai_2
+   Generating output for cell sky130_fd_sc_hd__nand2b_4
+   Generating output for cell sky130_fd_sc_hd__and3b_2
+   Generating output for cell sky130_fd_sc_hd__o31ai_1
+   Generating output for cell sha2_top
+[INFO]: GDS Write Complete

@@ -1,0 +1,51 @@
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+clkbuf_leaf_93_clk/X                     10     18     -8 (VIOLATED)
+clkbuf_leaf_97_clk/X                     10     17     -7 (VIOLATED)
+clkbuf_leaf_68_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_78_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_95_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_96_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_25_clk/X                     10     14     -4 (VIOLATED)
+clkbuf_leaf_54_clk/X                     10     14     -4 (VIOLATED)
+clkbuf_leaf_56_clk/X                     10     14     -4 (VIOLATED)
+clkbuf_leaf_57_clk/X                     10     14     -4 (VIOLATED)
+clkbuf_leaf_77_clk/X                     10     14     -4 (VIOLATED)
+clkbuf_leaf_123_clk/X                    10     13     -3 (VIOLATED)
+clkbuf_leaf_126_clk/X                    10     13     -3 (VIOLATED)
+clkbuf_leaf_1_clk/X                      10     13     -3 (VIOLATED)
+clkbuf_leaf_24_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_58_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_59_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_64_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_67_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_91_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_109_clk/X                    10     12     -2 (VIOLATED)
+clkbuf_leaf_12_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_34_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_41_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_5_clk/X                      10     12     -2 (VIOLATED)
+clkbuf_leaf_63_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_69_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_125_clk/X                    10     11        (VIOLATED)
+clkbuf_leaf_14_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_23_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_36_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_4_clk/X                      10     11        (VIOLATED)
+clkbuf_leaf_53_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_60_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_70_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_90_clk/X                     10     11        (VIOLATED)
+
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 36
+max cap violation count 0
+============================================================================

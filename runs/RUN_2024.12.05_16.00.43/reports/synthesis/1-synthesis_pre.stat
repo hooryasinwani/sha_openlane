@@ -1,0 +1,30 @@
+
+10. Printing statistics.
+
+=== sha2_top ===
+
+   Number of wires:               4102
+   Number of wire bits:           5818
+   Number of public wires:          73
+   Number of public wire bits:    1789
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               5782
+     $_ANDNOT_                     953
+     $_AND_                        129
+     $_DFFE_PP0P_                   10
+     $_DFFE_PP_                    534
+     $_DFF_PP0_                      3
+     $_DFF_PP1_                      2
+     $_MUX_                        955
+     $_NAND_                       128
+     $_NOR_                        434
+     $_NOT_                        180
+     $_ORNOT_                      115
+     $_OR_                         577
+     $_SDFFE_PP0P_                 275
+     $_SDFFE_PP1P_                 272
+     $_XNOR_                       439
+     $_XOR_                        776
+

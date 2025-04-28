@@ -1,0 +1,16 @@
+Design Name: sha2_top
+Run Directory: /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/logs/signoff/sha2_top.lvs.lef.log
+Source not found.
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.

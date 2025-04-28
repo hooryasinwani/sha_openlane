@@ -1,0 +1,38 @@
+
+23. Executing CHECK pass (checking for obvious problems).
+Checking module sha2_top...
+Warning: Wire sha2_top.\src_read is used but has no driver.
+Warning: Wire sha2_top.\dst_write is used but has no driver.
+Warning: Wire sha2_top.\dout [31] is used but has no driver.
+Warning: Wire sha2_top.\dout [30] is used but has no driver.
+Warning: Wire sha2_top.\dout [29] is used but has no driver.
+Warning: Wire sha2_top.\dout [28] is used but has no driver.
+Warning: Wire sha2_top.\dout [27] is used but has no driver.
+Warning: Wire sha2_top.\dout [26] is used but has no driver.
+Warning: Wire sha2_top.\dout [25] is used but has no driver.
+Warning: Wire sha2_top.\dout [24] is used but has no driver.
+Warning: Wire sha2_top.\dout [23] is used but has no driver.
+Warning: Wire sha2_top.\dout [22] is used but has no driver.
+Warning: Wire sha2_top.\dout [21] is used but has no driver.
+Warning: Wire sha2_top.\dout [20] is used but has no driver.
+Warning: Wire sha2_top.\dout [19] is used but has no driver.
+Warning: Wire sha2_top.\dout [18] is used but has no driver.
+Warning: Wire sha2_top.\dout [17] is used but has no driver.
+Warning: Wire sha2_top.\dout [16] is used but has no driver.
+Warning: Wire sha2_top.\dout [15] is used but has no driver.
+Warning: Wire sha2_top.\dout [14] is used but has no driver.
+Warning: Wire sha2_top.\dout [13] is used but has no driver.
+Warning: Wire sha2_top.\dout [12] is used but has no driver.
+Warning: Wire sha2_top.\dout [11] is used but has no driver.
+Warning: Wire sha2_top.\dout [10] is used but has no driver.
+Warning: Wire sha2_top.\dout [9] is used but has no driver.
+Warning: Wire sha2_top.\dout [8] is used but has no driver.
+Warning: Wire sha2_top.\dout [7] is used but has no driver.
+Warning: Wire sha2_top.\dout [6] is used but has no driver.
+Warning: Wire sha2_top.\dout [5] is used but has no driver.
+Warning: Wire sha2_top.\dout [4] is used but has no driver.
+Warning: Wire sha2_top.\dout [3] is used but has no driver.
+Warning: Wire sha2_top.\dout [2] is used but has no driver.
+Warning: Wire sha2_top.\dout [1] is used but has no driver.
+Warning: Wire sha2_top.\dout [0] is used but has no driver.
+Found and reported 34 problems.

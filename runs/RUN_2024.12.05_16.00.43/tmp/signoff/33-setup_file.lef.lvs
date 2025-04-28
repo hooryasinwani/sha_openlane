@@ -1,0 +1,1 @@
+lvs {/openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/results/signoff/sha2_top.spice sha2_top} {/openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/tmp/signoff/30-sha2_top.pnl.v sha2_top} /home/hwani/Desktop/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/logs/signoff/33-sha2_top.lef.lvs.log -json

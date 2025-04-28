@@ -1,0 +1,17 @@
+
+Input: /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/results/routing/sha2_top.def
+Output: /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/results/signoff/sha2_top.klayout.gds
+Design: sha2_top
+Technology File: /home/hwani/Desktop/pdk/sky130A/libs.tech/klayout/tech/sky130A.lyt
+GDS File List: ['/home/hwani/Desktop/pdk/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds']
+LEF File: /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/tmp/merged.nom.lef
+
+[INFO] Clearing cells...
+[INFO] Merging GDS files...
+	/home/hwani/Desktop/pdk/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+[INFO] Copying toplevel cell 'sha2_top'
+WARNING: no fill config file specified
+[INFO] Checking for missing GDS...
+[INFO] All LEF cells have matching GDS cells
+[INFO] Writing out GDS '/openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/results/signoff/sha2_top.klayout.gds'
+[INFO] Done.

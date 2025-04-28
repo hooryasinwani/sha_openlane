@@ -1,0 +1,21 @@
+OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL          262539.0 u
+legalized HPWL         268371.9 u
+delta HPWL                    2 %
+
+[INFO DPL-0020] Mirrored 2933 instances
+[INFO DPL-0021] HPWL before          268371.9 u
+[INFO DPL-0022] HPWL after           262539.0 u
+[INFO DPL-0023] HPWL delta               -2.2 %
+Setting global connections for newly added cells...
+Writing OpenROAD database to /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/results/placement/sha2_top.odb...
+Writing netlist to /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/results/placement/sha2_top.nl.v...
+Writing powered netlist to /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/results/placement/sha2_top.pnl.v...
+Writing layout to /openlane/designs/sha256/runs/RUN_2024.12.05_16.00.43/results/placement/sha2_top.def...
